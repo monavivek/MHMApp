@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/register"
+            android:title="Register" />
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/login1"
+            android:title="Login" />
+        <item
+            android:id="@+id/gallary"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallary" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/event"
+            android:title="Events" />
+
+
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contact"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/sugesstion"
+            android:icon="@drawable/sugesstion"
+            android:title="Sugesstion" />
+    </group>
+
+
+</menu>

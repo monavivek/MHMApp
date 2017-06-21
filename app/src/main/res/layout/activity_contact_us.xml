@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monagarg.mhmapp.ContactUs">
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/txtColor"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Contact Us"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/contactname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:textSize="20dp"
+        android:gravity="center"
+        style="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/txtColor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/contactnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactname"
+        android:layout_marginTop="-1dp"
+        android:textSize="20dp"
+        style="bold"
+        android:gravity="center"
+        android:textColor="@color/txtColor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

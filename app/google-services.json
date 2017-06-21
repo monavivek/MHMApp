@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "647340158467",
+    "firebase_url": "https://mhm-app.firebaseio.com",
+    "project_id": "mhm-app",
+    "storage_bucket": "mhm-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647340158467:android:673e9fe54465bf81",
+        "android_client_info": {
+          "package_name": "com.example.monagarg.mhmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647340158467-0sgv3nk0sjmf23pjt0vgov5k8j9h2e2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJIYM_ypAVu1aT5rFGEVgAjdJQRB05AiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
